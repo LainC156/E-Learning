@@ -1,0 +1,20 @@
+<?= $this->_apilaCss('cliente/Comun/css/form.css') ?>
+
+<img class="page-font" src="Cliente/Comun/imagenes/background.png">
+
+<div class="form f-center f-390">
+  <div class="f-header f-tag">Ingresa al sistema</div>
+  <div class="f-body">
+	<input class="f-element f-input" id="usuario"
+	       value="" autocomplete="new-user"
+		   type="text" placeholder="Usuario">
+	<input class="f-element f-input" id="clave"
+	       value="" autocomplete="new-password"
+		   type="password" placeholder="Contraseña">
+	<button class="f-element f-tag" id="btn-entrar">Entrar</button>
+	<div id="error-warning" class="f-undisplay"></div>
+	<div class="f-footer">
+		<a id="form-registro">Regístrate aquí</a> | <a>Olvidé mi contraseña</a>
+	</div>
+  </div>
+</div>
